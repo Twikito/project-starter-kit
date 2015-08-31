@@ -2,7 +2,7 @@
    SCSS mixins
    ========================================================================== */
 
-@function em($target, $context: $base-font-size) {
+@function em($target, $context: $base-font-size) { // $base-font-size from KNACSS
 	@if $target == 0 { @return 0 }
 	@return $target / $context + 0em;
 }
