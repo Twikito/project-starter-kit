@@ -1,0 +1,2 @@
+!function(){for(var t,e=function(){},n=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeline","timelineEnd","timeStamp","trace","warn"],i=n.length,o=window.console=window.console||{};i--;)t=n[i],o[t]||(o[t]=e)}();
+//# sourceMappingURL=plugins-dist.js.map
