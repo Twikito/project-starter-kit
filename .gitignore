@@ -3,3 +3,5 @@
 
 *.css
 *.css.map
+*.min.js
+*.min.js.map
