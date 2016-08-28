@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Sass config file
+
+   Declaration chart:
+   foo {
+       line 1: box styles;
+       line 2: flex styles;
+       line 3: transform styles;
+       line 4: border styles;
+       line 5: background styles;
+       line 6: text styles;
+       line 7: other styles;
+       line 8: animation and transition styles;
+   }
+   ========================================================================== */
+
+// Config, variables and mixins
+@import "vendor/ceaser/ceaser";
+@import "sass-variables";
+@import "sass-mixins";
+
+// Reset and dependencies
+@import "vendor/normalize/_normalize";
+@import "sass-animations";
+
+// Base
+@import "sass-base";
+@import "sass-grid";
+@import "sass-typo";
+
+// Main layout
+@import "page-layout";
+
+// Blocs styles
+@import "bloc-header";
+@import "bloc-navigation";
+@import "bloc-footer";
+
+// UI specifics
+@import "ui-forms";
+@import "ui-buttons";
+@import "ui-componants";
+@import "ui-helpers";

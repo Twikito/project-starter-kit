@@ -1,0 +1,128 @@
+// Colors
+
+$white                  : white;
+$black                  : black;
+$transparent            : transparent;
+$grey                   : silver;
+$green                  : seagreen;
+
+//--
+
+$primary                : $green;
+
+$default-color          : $black;
+$link-color             : $grey;
+$selection-color        : $black;
+$section-bg             : $grey;
+$hr-bg                  : $grey;
+
+
+// Feedbacks
+
+$success                : #5cb85c;
+$info                   : #5bc0de;
+$warning                : #f0ad4e;
+$danger                 : #d9534f;
+
+
+// buttons
+
+$buttons-colors         : ((
+  'class'               : 'default',
+  'color'               : $default-color,
+  'background'          : $white,
+  'border'              : darken($white, 5%)
+),(
+  'class'               : 'primary',
+  'color'               : $white,
+  'background'          : $primary,
+  'border'              : darken($primary, 5%)
+),(
+  'class'               : 'success',
+  'color'               : $white,
+  'background'          : $success,
+  'border'              : darken($success, 5%)
+),(
+  'class'               : 'info',
+  'color'               : $white,
+  'background'          : $info,
+  'border'              : darken($info, 5%)
+),(
+  'class'               : 'warning',
+  'color'               : $white,
+  'background'          : $warning,
+  'border'              : darken($warning, 5%)
+),(
+  'class'               : 'danger',
+  'color'               : $white,
+  'background'          : $danger,
+  'border'              : darken($danger, 5%)
+));
+
+
+// Sizes
+
+$defaut-font-size       : 1em;
+$default-line-height    : 1.5;
+
+
+// Grid
+
+$grid-width             : 96rem;
+$grid-goetter           : 2rem;
+$grid-max-col-number    : 3;
+
+
+// Responsive
+
+$media-breakpoint-sm    : 26rem;
+$media-breakpoint-md    : 38rem;
+$media-breakpoint-lg    : 50rem;
+$media-breakpoint-xl    : 64rem;
+
+$media-ratio-xs         : 1.6;
+$media-ratio-sm         : 1.6;
+$media-ratio-md         : 1.8;
+$media-ratio-lg         : 2.0;
+$media-ratio-xl         : 2.0;
+
+
+// Fonts
+
+$default-font-family    : arial, verdana, sans-serif;
+$default-font-weight    : 400;
+$default-font-style     : normal;
+
+$title-font-family      : arial, verdana, sans-serif;
+$title-font-weight      : 400;
+$title-font-style       : normal;
+
+$button-font-family     : arial, verdana, sans-serif;
+$button-font-weight     : 400;
+$button-font-style      : normal;
+
+
+// Buttons
+
+$buttons-sizes          : ((
+  'class'               : 'lg',
+  'size'                : 1.5em,
+  'padding'             : 1em 2em
+),(
+  'class'               : 'sm',
+  'size'                : .875em,
+  'padding'             : .25em .5em
+),(
+  'class'               : 'xs',
+  'size'                : .75em,
+  'padding'             : .125em .25em
+));
+
+
+// Misc
+
+$default-duration       : .15s;
+$default-timing-function: cubic-bezier(unquote($easeInOutQuart));
+
+$link-decoration        : none;
+$link-hover-decoration  : underline;
